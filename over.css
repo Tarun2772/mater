@@ -1,0 +1,334 @@
+nav{
+    background-color: white;
+    position:fixed;
+    z-index: 100;
+}
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.bakwas{
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #717f86;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*#new{
+    background-color: #717f86;
+    position: relative;
+    width:100vw;
+    height:60vh;
+    top: 90vh;
+    z-index: -5;
+}
+#new1{
+    height:0;
+    width:0;
+    border-top:10vh solid #717f86;
+    border-left:100vw solid transparent;
+  //  position: absolute;
+    top: 68.5vh;
+}*/
+#inps, #inps1{
+    position: absolute;
+    top: 15vh;
+}
+.email{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.jhakas{
+    font-family:"Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+    font-size: 56px !important;
+    color: #384047;
+}
+#rowa{
+    position:absolute;
+    top:190vh;
+}
+#rowa2{
+    position:absolute;
+    top:260vh;
+}
+#rowa3{
+    position:absolute;
+    top: 320vh;
+}
+#rowa4{
+    position:absolute;
+    top: 380vh;
+}
+#ajeeb{
+    max-width:70vw;
+    width:70vw;
+    min-height:50vh;
+    height:60vh;
+    border-radius: 4px;
+    z-index: -50;
+
+}
+#piche{
+    position:absolute;
+    z-index: -100;
+    background-color: #f9fafa !important;
+    width:100vw;
+    height:120vh;
+    top:60vh;
+}
+#piche-bad{
+    position:absolute;
+    z-index: -100;
+    //background-color: #f9fafa !important;
+    width:0vw;
+    height:0vh;
+    top:180vh;
+    border-top:10vh solid #f9fafa;
+    border-left:100vw solid transparent;
+
+}
+#piche2{
+    position:absolute;
+    z-index: -100;
+    background-color: #f9fafa !important;
+    width:100vw;
+    height:120vh;
+    top:399.8vh;
+}
+#piche-bad2{
+    position:absolute;
+    z-index: -100;
+//background-color: #f9fafa !important;
+    width:0vw;
+    height:0vh;
+    top:390vh;
+    border-bottom:10vh solid #f9fafa;
+    border-right:100vw solid transparent;
+
+}
+#pahu{
+    //border: 2px solid red;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+.bachu{
+    background-color: #637a91 !important;
+    border-color: #637a91 !important;
+    color: #fff !important;
+    font-size: 16px;
+    height: 52px;
+    line-height: 48px;
+    padding: 0 32px;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+
+}
+.bachu:hover{
+    //transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+    background-color:  greenyellow;
+}
+.jhandua{
+    color: #717f86;
+    line-height: 1.6;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    font-size: 1.25rem !important;
+}
+#macha{
+
+}
+.nichu{
+    color: #8eaab1;
+    font-size: 0.875rem !important;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.ltc{
+    font-size: 2.25rem !important;
+    color: #384047;
+    font-style: normal;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+    font-weight: 500;
+    line-height: 1.3 !important;
+}
+#right1{
+    position: absolute;
+    left: 60vw;
+    width:20vw;
+    text-align: center;
+}
+#midle{
+    position: absolute;
+    left: 30vw;
+    width:20vw;
+    text-align: center;
+}
+.row1{
+    position: absolute;
+    top: 150vh;
+    //border: 2px solid red;
+    left: 10vw;
+}
+#mail, #mail1{
+    background-color: white;
+    width: 16vw;
+    border-radius: 5px;
+}
+#too{
+    position:absolute;
+    //top: 5vh;
+    text-align: center;
+    //left: 5vw;
+    width: 20vw;
+}
+#butt, #butt1{
+    position: absolute;
+    top: 30px;
+    min-width: 135px;
+    min-height: 45px;
+    left: 35vw;
+    background-color: #5fcf80;
+    border-radius: 5px;
+}
+#butt:hover{
+    background-color: forestgreen;
+}
+#password, #password1{
+    background-color: white;
+    width: 16vw;
+    border-radius: 5px;
+}
+
+#back{
+    width: 80vw;
+    position: absolute;
+    top: -43vh;
+    box-shadow: slategrey;
+    border-radius: 4px;
+    height: 90vh;
+    opacity: 1;
+}
+#unlock{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: -30vh;
+    font-weight: 500;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+}
+ul{
+    color: black;
+}
+li{
+    padding: 10px;
+    margin:0 10px;
+}
+#mid{
+    font-size: 3rem;
+    top: 60vh;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif !important;
+    text-align: center;
+}
+.drop{
+    border-radius: 4px;
+    display: none;
+    background-color: antiquewhite;
+}
+#icon{
+    width: 60PX;
+    min-width: 60PX;
+    position:fixed;
+    height: 60px;
+    min-height: 60px;
+    left: 100px;
+    top:0;
+}
+i{
+    position: fixed;
+    left: 825px;
+    top:5px;
+}
+#search{
+    position: absolute;
+    left: 4.2vw;
+    width: 60vw;
+    background-color: lightgrey;
+    top: 1.1vh;
+    color: red;
+    border: 2px solid red;
+}
+#search_icon{
+    width:1vw;
+    height: 1vh;
+    background-color: black;
+}
+input{
+    border-bottom:none;
+}
+#tree{
+    position:fixed;
+    top:1.8vh;
+    min-width: 172px;
+    min-height: 20px;
+    height: 35px;
+    max-height: 40px;
+    left: 170.8px;
+}
+.dropbtn{
+    position: fixed;
+    left:50vw;
+}
+#l2{
+    position: fixed;
+    left: 55vw;
+}
+#l3{
+    position: fixed;
+    left: 62vw;
+}
+#l4{
+    position: fixed;
+    left: 68vw;
+}
+#l5{
+    position: fixed;
+    left: 74vw;
+}
+#background{
+    position: relative;
+    background-color: #5fcf80;
+    width:100vw;
+    height:60vh;
+    top: 8.5vh;
+}
+#tri{
+    height:0;
+    width:0;
+    border-top:10vh solid #5fcf80;
+    border-left:100vw solid transparent;
+    position: absolute;
+    top: 68.5vh;
+
+}
+nav a{
+    color:grey;
+    font-size: 1.1rem;
+    font-weight:700;
+}
+nav ul a{
+    color:grey;
+    font-size: 1.1rem;
+    font-weight:700;
+    display: flex;
+}
+.show{
+    display: block;
+}
+#elem:hover{
+    display: block;
+}
